@@ -15,17 +15,20 @@
 
 .. class:: center
 
-    :Название исследуемой задачи: Мое название работы
-    :Тип научной работы: M1P/НИР
-    :Автор: Имя Отчество Фамилия
-    :Научный руководитель: степень, Фамилия Имя Отчество
-    :Научный консультант(при наличии): степень, Фамилия Имя Отчество
+    :Название исследуемой задачи: Comparison of gradient methods for smooth
+strongly convex optimization
+    :Тип научной работы: Проект
 
 Abstract
 ========
-
-Purus sit amet luctus venenatis lectus magna fringilla. Condimentum id venenatis a condimentum vitae sapien. Auctor neque vitae tempus quam pellentesque nec nam aliquam. Eget egestas purus viverra accumsan in. Nam aliquam sem et tortor. Donec et odio pellentesque diam volutpat commodo. Odio pellentesque diam volutpat commodo sed egestas. Sit amet dictum sit amet justo. Pellentesque sit amet porttitor eget. Imperdiet sed euismod nisi porta lorem mollis aliquam ut. Quis varius quam quisque id diam vel quam elementum. Ornare lectus sit amet est placerat in. Vulputate dignissim suspendisse in est ante. Elit sed vulputate mi sit amet mauris. Egestas sed tempus urna et pharetra pharetra. Viverra tellus in hac habitasse platea dictumst vestibulum rhoncus.
-
+В связи с недавними продвижениями в нахождении оптимального с точки зрения скорости сходимости
+метода первого порядка гладкой сильно выпуклой оптимизации, возникает вопрос о приложениях таких
+методов. В данном проекте предлагается исследовать возможность практического применения методов
+гладкой выпуклой оптимизации. В качестве объектов исследования будут использоваться методы первого
+порядка ITEM, FGD, GD, OGM, TMM. Необходимо реализовать алгоритмы и сравнить их на гладких
+выпуклых функциях. В качестве типичных функций из данного класса предлагается взять квадратичную
+функцию и функцию потерь логистической регрессии. Также предлагается создать адаптивный метод
+на основе ITEM и техники из статьи [1], не требующий знания констант выпуклости и гладкости.
 Research publications
 ===============================
 1. 
@@ -36,5 +39,4 @@ Presentations at conferences on the topic of research
 
 Software modules developed as part of the study
 ======================================================
-1. A python package *mylib* with all implementation `here <https://github.com/Intelligent-Systems-Phystech/ProjectTemplate/tree/master/src>`_.
-2. A code with all experiment visualisation `here <https://github.com/Intelligent-Systems-Phystech/ProjectTemplate/blob/master/code/main.ipynb>`_. Can use `colab <http://colab.research.google.com/github/Intelligent-Systems-Phystech/ProjectTemplate/blob/master/code/main.ipynb>`_.
+1. A code with all experiment visualisation `here <https://github.com/mzyatkov/optimization_project/blob/master/code/main.ipynb>`_. Can use `colab <http://colab.research.google.com/github/mzyatkov/optimization_project/blob/master/code/main.ipynb>`_.
