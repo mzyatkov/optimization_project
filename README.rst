@@ -15,8 +15,7 @@
 
 .. class:: center
 
-    :Название исследуемой задачи: Comparison of gradient methods for smooth
-strongly convex optimization
+    :Название исследуемой задачи: Comparison of gradient methods for smooth strongly convex optimization
     :Тип научной работы: Проект
 
 Abstract
@@ -29,6 +28,7 @@ Abstract
 выпуклых функциях. В качестве типичных функций из данного класса предлагается взять квадратичную
 функцию и функцию потерь логистической регрессии. Также предлагается создать адаптивный метод
 на основе ITEM и техники из статьи [1], не требующий знания констант выпуклости и гладкости.
+
 Research publications
 ===============================
 1. 
